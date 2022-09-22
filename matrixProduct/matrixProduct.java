@@ -64,7 +64,6 @@ public class matrixProduct {
             }
         }
         // RESULTS
-        
         int sum = 0;
         n = 2;
         for (int i = 0; i < n; i++) {
@@ -76,6 +75,7 @@ public class matrixProduct {
                 array3[i][j] = sum;
             }
         }
+        // DISPLAY RESULTS
         System.out.println("Resultado de la multiplicación");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
