@@ -52,7 +52,7 @@ public class main {
                         break;
                     case 5:
                         if (!lista.vacia()) {
-                            elemento = lista.pop()
+                            elemento = lista.pop();
                             JOptionPane.showMessageDialog(null, "El elemento eliminado es: " + elemento,
                                     "Eliminando primer nodo", JOptionPane.INFORMATION_MESSAGE);
                         } else {
